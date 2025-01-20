@@ -15,12 +15,13 @@ Ans = []
 # (300*200 + 500*100) as an example calculation
 
 # Set the range to 1 to multiply the first index of prices inorder to implement the example calculation
-for i in range(1):
+for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Array2)):
         # COMPLETE THE MISSING LOGIC HERE
         row_sum += Prices[i][j] * Array2[j]
-        pass
+    Ans.append(row_sum)
+    row_sum = 0
+    pass
 
-Ans.append(row_sum)
 print(Ans)
