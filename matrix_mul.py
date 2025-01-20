@@ -8,7 +8,8 @@ import numpy as np
 Prices = [[300, 500],
           [1000, 120.85]]
 
-Array2 = [200,100]
+Array2 = [[200],
+            [100]] #double bracket list of lists for matrix
 
 # Calculate the result
 Ans = []
@@ -19,9 +20,10 @@ for i in range(len(Prices)):
     row_sum = 0
     for j in range(len(Array2)):
         # COMPLETE THE MISSING LOGIC HERE
-        row_sum += Prices[i][j] * Array2[j]
+        row_sum += Prices[i][j] * Array2[j][0]
     Ans.append(row_sum)
     row_sum = 0
     pass
 
 print(Ans)
+

@@ -2,13 +2,8 @@
 # Python Data Processing and Array Manipulation  
 
 ## Participant Names  
-<<<<<<< HEAD
 - **Participant 1:** Dean Daryl Murenzi
 - **Participant 2:** Dennis Mwai Kimiri 
-=======
-- **Participant 1:** Dean Daryl MURENZI 
-- **Participant 2:** [Name of Student 2]  
->>>>>>> 59951ed0df0a639a83540183e5e6a77c36f031e1
 
 ## Description  
 This assignment involves debugging and completing the provided starter code to compute the sum of products for two matrices.  
